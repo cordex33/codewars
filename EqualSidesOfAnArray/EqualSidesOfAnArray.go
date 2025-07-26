@@ -5,7 +5,9 @@ import (
 )
 
 func FindEvenIndex(arr []int) int {
-  return -1
+	test := "test"
+	fmt.Println(test)
+	return -1
 }
 
 func main() {
