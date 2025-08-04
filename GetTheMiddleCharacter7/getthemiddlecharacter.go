@@ -7,10 +7,14 @@ import (
 func GetMiddle(s string) string {
 	xd := len(s) / 2
 
-	return s[xd : xd+1]
+	if len(s)%2 == 0 {
+		return s[xd-1 : xd+1]
+	} else {
+		return s[xd : xd+1]
+	}
 }
 
 func main() {
-	test := GetMiddle("A")
+	test := GetMiddle("test")
 	fmt.Println(test)
 }
