@@ -1,0 +1,1 @@
+select s, n, repeat(s, n) as res from repeatstr
