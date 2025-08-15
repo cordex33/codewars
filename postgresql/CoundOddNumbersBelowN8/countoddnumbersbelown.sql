@@ -1,0 +1,1 @@
+select n, (n/2) as res from oddcount
